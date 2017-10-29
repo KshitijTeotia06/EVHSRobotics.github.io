@@ -84,7 +84,7 @@ class BlogeditorController {
       if(!this.loggedin){
         return;
       }
-      if(!confirm('are you sure you want to delete post: ' + post.id)){
+      if(!confirm('Are you sure you want to delete post: ' + post.id + '?')){
         return;
       }
       let postListEntry = $firebaseObject(this.postListArray.child(post.id));
