@@ -1,4 +1,4 @@
-#EVHSRobotics
+# EVHSRobotics
 ### The EVHS Robotics Club's Site. PR's welcome.
 
 -------
